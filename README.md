@@ -71,6 +71,12 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=7
 
 - try restarting your terminal if changes did not  take any effect
 - try running the scripts one by one instead of `step 2` of [the setup process](#setup)
+- one can think that the default elements displayed in the terminal can clutter it a bit. consider removing some with the following settings
+
+    ```shell
+    POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
+    POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+    ```
 
 ## Plans/Roadmnap
 
